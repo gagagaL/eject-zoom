@@ -1,8 +1,2 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
-const Index = () => {
-    return <div>Hello React!</div>;
-};
-
-ReactDOM.render(<Index />, document.getElementById("index"));
+<script src="/socket.io/socket.io.js" defer></script>
+<script src="app.js" defer></script>
